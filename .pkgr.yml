@@ -25,6 +25,16 @@ targets:
       - libicu52
       - libpcre3
       - git
+  ubuntu-16.04:
+    build_dependencies:
+      - libkrb5-dev
+      - libicu-dev
+      - cmake
+      - pkg-config
+    dependencies:
+      - libicu55
+      - libpcre3
+      - git
   centos-6:
     build_dependencies:
       - krb5-devel
