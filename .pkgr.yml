@@ -2,6 +2,8 @@ user: git
 group: git
 services:
   - postgres
+env:
+  - SKIP_STORAGE_VALIDATION=true
 before_precompile: ./bin/pkgr_before_precompile.sh
 targets:
   debian-7: &wheezy
