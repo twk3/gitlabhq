@@ -45,6 +45,7 @@ v 8.12.0 (unreleased)
   - Add hover state to todos !5361 (winniehell)
   - Fix icon alignment of star and fork buttons !5451 (winniehell)
   - Fix alignment of icon buttons !5887 (winniehell)
+  - Added packaging for Ubuntu 16.04 with packager.io (JonTheNiceGuy)
   - Fix markdown help references (ClemMakesApps)
   - Add last commit time to repo view (ClemMakesApps)
   - Fix accessibility and visibility of project list dropdown button !6140
@@ -92,7 +93,6 @@ v 8.12.0 (unreleased)
   - Refactor the triggers page and documentation !6217
   - Show values of CI trigger variables only when clicked (Katarzyna Kobierska Ula Budziszewska)
   - Use default clone protocol on "check out, review, and merge locally" help page URL
-  - Added packaging for Ubuntu 16.04 with packager.io
 
 v 8.11.5 (unreleased)
   - Optimize branch lookups and force a repository reload for Repository#find_branch
